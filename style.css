@@ -1,0 +1,255 @@
+
+  
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+     /* Navbar Code*/
+nav{
+    height: 80px;
+    width: 100%;
+    background: rgb(253, 254, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(14, 5, 138, 0.904);
+    padding: 0 100px;
+    line-height: 80px;
+    font-family: Cambria;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+    font-weight: bold;
+}
+nav a{
+    color: black;
+    font-size: 18px;
+    text-transform: none;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active1{
+    background: black;
+    color: white;
+}
+a.active2{
+    background: black;
+    color: white;
+}
+a.active3{
+    background: black;
+    color: white;
+}
+a:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid black;
+    transition: .5s;
+}
+nav #icon{
+    color: black;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+      /* Home Page Code*/
+.h{
+    background-color: rgba(231, 231, 231, 0.945);
+}
+.body1 h1{
+     padding: 20px 20px 20px;
+     color: rgb(49, 49, 49);
+     font-family: Times New Roman;
+     text-indent: 50px;
+     font-weight: bold;
+     font-size: 40px;
+}
+.section1{
+    font-family: Georgia;
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    padding: 15px 25px;
+}
+.img1{
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+    padding: 35px 150px 35px 150px;
+}
+.section2{
+    font-family: Georgia;
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    padding: 15px 25px 8px;
+}
+.img2{
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+    padding: 35px 150px 35px;
+}
+.section3{
+    font-family: Georgia;
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    padding: 15px 25px 8px;
+}
+.img3{
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+    padding: 35px 150px 35px;
+}
+.section4{
+    font-family: Georgia;
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    padding: 15px 25px 60px;
+}
+
+.footer{
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    font-family: courier New;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+/*about us code*/
+.a{
+    background-color: rgba(231, 231, 231, 0.945);;
+    
+}
+.container1{
+    color: black;
+    text-align: center;
+    font-family: Geneva;
+    font-weight: bold;
+    padding: 15px;
+}
+.container1 img {
+    border-radius: 50%;
+    padding: 15px;
+}
+.pa{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    color: rgb(49, 49, 49);
+    padding: 15px 40px;
+    font-family: Geneva;
+}
+
+
+
+
+
+/*gallery code*/
+.g{
+    background-color: rgba(231, 231, 231, 0.945);
+}
+
+  .text-center {
+    font-family: Georgia;
+    font-size: 30px;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:black;
+  }
+  
+  @media (max-width:767px) {
+    .text-center {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+   .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photos {
+    padding-bottom:20px;
+  }
+  
+  .item {
+    padding-bottom:30px;
+  }
+  
+  
+
+
+
+
+    /* Responsive Sizing*/
+@media (max-width:700px){
+    label.logo{
+        font-size: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    nav ul{
+        margin-right: 10px;
+    }
+    nav a{
+        font-size: 17px;
+        padding-left: 3.5px;
+        padding-right: 3px;
+    }
+    .img1{
+        max-width: 80%;
+        height: auto;
+        align-content: justify;
+        padding: 5px 5px;
+    } 
+    .container{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 3px 5px;
+        float: left;
+        font-family: Cambria;
+    }
+} 
+@media (max-width:1000px){
+    .container{
+        float: left;
+        padding: 10px 10px;
+        font-weight: bold;
+        font-size: 25px;
+        color: rgb(49, 49, 49);
+        font-family: Cambria;
+    }
+}
+
+
+
+
+ 
